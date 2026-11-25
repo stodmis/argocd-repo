@@ -5,6 +5,7 @@ metadata:
     run: nginx
   name: nginx
 spec:
+  replicas: 2
   containers:
   - image: nginx
     name: nginx
